@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Compilador propio",
+        "image":"/images/2.png",
+        "description": "Es sobre un compilador echo por mi corre sobre java",
+        "link": "https://github.com/Fernando-droidx/Compilador",
+        "Tech": "Java"
+
+    },
+    {
+        "title": "Reconocimiento de inteligencia artificial",
+        "image":"/images/2.png",
+        "description": "Descripción del proyecto 2",
+        "link": "https://enlaceproyecto2.com",
+        "Tech": "Python"
+    }
+]
