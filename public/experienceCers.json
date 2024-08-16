@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Enterprise Security in Practice",
+        "image":"/images/2.png",
+        "company": "Ibm",
+        "description": "Sobre ciberseguridad",
+        "link": "https://www.credly.com/badges/9c498f11-4392-402b-a50e-dc7ee7724556/linked_in_profile"
+    },
+    {
+        "title": "Getting Started with Threat Intelligence and Huntinge",
+        "image":"/images/2.png",
+        "company": "Ibm",
+        "description": "Sobre ciberseguridad",
+        "link": "https://credly.com/badges/94190c96-ee29-489d-b942-0355cf41ae4e/linked_in_profile"
+    },
+    {
+        "title": "Security Operations Center in Practice",
+        "image":"/images/2.png",
+        "company": "Ibm",
+        "description": "Sobre ciberseguridad",
+        "link": "https://www.credly.com/badges/44612384-07db-4abd-952d-5a7ddfec1753/linked_in_profile"
+    },
+    {
+        "title": "Desarrollo Personal G5 - ONE",
+        "image":"/images/2.png",
+        "company": "Alura",
+        "description": "Sobre desarrollo personal en programacion",
+        "link": "https://app.aluracursos.com/degree/certificate/04e682d0-2472-4aa5-a1b6-4b558b7a2ca0"
+    },
+    {
+        "title": "Principiante en Programación G5 - ONE",
+        "image":"/images/2.png",
+        "company": "Alura",
+        "description": "Sobre desarrollo software con framework React",
+        "link": "https://app.aluracursos.com/degree/certificate/af694df5-140a-4871-8de6-d8dba9e6066f"
+    }
+
+]

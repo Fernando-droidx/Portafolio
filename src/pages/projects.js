@@ -10,11 +10,12 @@ export async function getStaticProps() {
     const projects = JSON.parse(jsonData);
 
     return {
-        props: {
-        projects : projects||[]
-        }
+          props: {
+          projects : projects||[]
+          }
     };
-    }
+}
+
 
 const Projects = ({ projects }) => {
     if (!projects || !Array.isArray(projects)) {
