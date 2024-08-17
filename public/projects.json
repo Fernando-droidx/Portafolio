@@ -1,6 +1,6 @@
 [
     {
-        "title": "Compilador propio",
+        "title": "Lenguaje propio",
         "image":"/images/2.png",
         "description": "Es sobre un compilador echo por mi corre sobre java",
         "link": "https://github.com/Fernando-droidx/Compilador",
@@ -17,14 +17,14 @@
     {
         "title": "Recomendacion de peliculas usando machine learning",
         "image":"/images/2.png",
-        "description": "sistema de recomendación de películas utilizando técnicas de filtrado colaborativo y basado en contenido.",
+        "description": "Sistema de recomendación de películas utilizando machine learning.",
         "link": "https://enlaceproyecto2.com",
         "Tech": "Python"
     },
     {
         "title": "Administracion de vuelos",
         "image":"/images/2.png",
-        "description": "Descripción del proyecto 2",
+        "description": "Administracion de vuelos",
         "link": "https://github.com/Fernando-droidx/Reservacion-de-Vuelos",
         "Tech": "Python"
     },

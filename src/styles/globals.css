@@ -63,11 +63,11 @@ body {
 
 .custom-scrollbar::-webkit-scrollbar-track {
   background-color: #6a0dad; /* Fondo morado del track */
-  border-radius: 10px; /* Redondeado del track */
+  border-radius: 40px; /* Redondeado del track */
 }
 
 /* Para Firefox */
 .custom-scrollbar {
   scrollbar-width: thin; /* Tamaño fino del scrollbar */
-  scrollbar-color: #ffffff #6a0dad; /* Pulgar blanco, track morado */
+  scrollbar-color: #959190 #6a0dad; /* Pulgar blanco, track morado */
 }

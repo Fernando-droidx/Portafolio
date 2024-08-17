@@ -25,7 +25,8 @@ const Projects = ({ projects }) => {
     return (
         <Layout>
             <div className="px-10">
-                <h5 className="mb-4 text-2xl font-bold dark:text-white text-center">Proyectos</h5>
+                <h5 className="mb-4 text-2xl font-bold dark:text-white text-center  gradient-text">Proyectos</h5>
+                
             </div>
 
             {/* Contenedor Flex con scroll horizontal, centrado y clase custom-scrollbar */}
@@ -58,7 +59,6 @@ const Projects = ({ projects }) => {
                 ))}
             </div>
 
-            {/* Espacio extra fijo debajo del scroll */}
             <div className="h-32"></div>
         </Layout>
     );
