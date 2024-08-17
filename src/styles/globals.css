@@ -49,3 +49,25 @@ body {
 }
 
 
+/* Estilos personalizados del scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px; /* Ancho del scrollbar */
+  height: 12px; /* Altura del scrollbar en scroll horizontal */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ffffff; /* Color del pulgar (thumb) */
+  border-radius: 10px; /* Bordes redondeados */
+  border: 3px solid #6a0dad; /* Borde morado alrededor del pulgar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #6a0dad; /* Fondo morado del track */
+  border-radius: 10px; /* Redondeado del track */
+}
+
+/* Para Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Tamaño fino del scrollbar */
+  scrollbar-color: #ffffff #6a0dad; /* Pulgar blanco, track morado */
+}

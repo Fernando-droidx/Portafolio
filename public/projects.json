@@ -13,5 +13,40 @@
         "description": "Descripción del proyecto 2",
         "link": "https://enlaceproyecto2.com",
         "Tech": "Python"
+    },
+    {
+        "title": "Recomendacion de peliculas usando machine learning",
+        "image":"/images/2.png",
+        "description": "sistema de recomendación de películas utilizando técnicas de filtrado colaborativo y basado en contenido.",
+        "link": "https://enlaceproyecto2.com",
+        "Tech": "Python"
+    },
+    {
+        "title": "Administracion de vuelos",
+        "image":"/images/2.png",
+        "description": "Descripción del proyecto 2",
+        "link": "https://github.com/Fernando-droidx/Reservacion-de-Vuelos",
+        "Tech": "Python"
+    },
+    {
+        "title": "Anbarpaints",
+        "image":"/images/2.png",
+        "description": "Punto de venta de pinturas con transacciones online y carrito",
+        "link": "https://enlaceproyecto2.com",
+        "Tech": "PHP/Laravel - SQL"
+    },
+    {
+        "title": "Escala de grises",
+        "image":"/images/2.png",
+        "description": " interfaz gráfica para convertir imágenes a escala de grises para la IA",
+        "link": "https://github.com/Fernando-droidx/EscaladeGrises",
+        "Tech": "C#"
+    },
+    {
+        "title": "Sistema Gestor de Cerveceria",
+        "image":"/images/2.png",
+        "description": "Desarrollado en C# con una interfaz gráfica, conectado a una base de datos SQL.",
+        "link": "https://github.com/Fernando-droidx/Final",
+        "Tech": "C# - SQL"
     }
 ]
