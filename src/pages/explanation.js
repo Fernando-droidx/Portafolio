@@ -7,8 +7,9 @@ export default function Explanation(){
             <Layout>
                 <div className="container mx-auto px-4 py-8">
                     <h1 className="text-3xl font-bold">Presento las explicaciones de los ejercicios de programacion</h1>
-                   
-                    <p className="mt-4"> de los cuales hago los mas populares, de leetcode o de cualquier ambito</p>
+                    <div className="">
+
+                    </div>
                 </div>
             </Layout>
         </div>

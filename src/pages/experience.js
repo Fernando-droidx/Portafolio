@@ -42,8 +42,10 @@ const ExperienceCer = ({ experienceCers }) => {
 
                 {/* Elemento a la derecha */}
                 <div className="flex overflow-x-scroll gap-4 px-10 pb-16 min-h-[150px] custom-scrollbar mx-auto w-2/4"> {/* flex-wrap para que los elementos se envuelvan */}
+                
                     {experienceCers.map((experienceCer, index) => (
                         <div key={index} className="flex-shrink-0 w-64 p-4"> {/* Cada certificado ocupa 1/3 del ancho */}
+                        
                             <div className="bg-black rounded-lg shadow-lg">
                                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                     <a href="#">
