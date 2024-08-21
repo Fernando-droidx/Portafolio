@@ -13,7 +13,7 @@ export default function Header() {
                     Luis Fernando Ramirez Rivas
                 </h1>
                 <p className="mt-1.5 text-sm text-gray-500 dark:text-gray-400">
-                    Soy Ingeniero en ciencias computacionales por parte de la universidad de Guadalajara
+                    Soy estudiante de Ingenieria en ciencias computacionales por parte de la Universidad de Guadalajara
               </p>
             </div>
           </div>

@@ -20,36 +20,43 @@ const ExperienceCer = ({ experienceCers }) => {
     return (
         <Layout> 
             <div className="flex justify-between"> {/* Flexbox para alinear a la izquierda y derecha */} {/* Contenedor de los certificados */} 
-                <div className="w-1/4 px-10"> {/* Ajustamos el ancho del contenido derecho */} <div > <h5 className="mb-2 text-2xl font-bold dark:text-white">Experiencia</h5> </div> 
-                    <a href="#" className="group relative block h-64 sm:h-80 lg:h-96"> <span className="absolute inset-0 border-2 border-dashed border-black"></span> 
-                    <div className="relative flex h-full transform items-end  bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2 rounded-lg"> <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"> <svg xmlns="http://www.w3.org/2000/svg" className="size-10 sm:size-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" > <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                                        />
-                                    </svg>
-
-                                    <h2 className="mt-4 text-xl font-medium sm:text-2xl dark:text-white">Test technician</h2>
-                                </div>
-
-                                <div className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8">
-                                    <h3 className="mt-4 text-xl font-medium sm:text-2xl dark:text-white">Test technician en ibm</h3>
-
-                                    <p className="mt-4 text-sm sm:text-base dark:text-white">
-                                        Trabaje en ibm por 2 meses durante agosto del 2023 a octubre del 2023, fue un trabajo temporal 
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
+                <div className="w-1/3 px-10"> {/* Ajustamos el ancho del contenido derecho */} 
+                    <div > 
+                        <h5 className="mb-4 text-2xl font-bold dark:text-white">Experiencia</h5> 
+                    </div> 
+                        <ol class="relative border-s border-gray-200 dark:border-gray-700">                  
+                            <li class="mb-10 ms-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Agosto 2023 - Octubre 2023</time>
+                                <h2 class="text-lg font-semibold text-gray-900 dark:text-white">IBM</h2>
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Test technician</h3>
+                                
+                                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Registro de las operaciones de entrada y salida de servidores utilizados para realizar pruebas de software y hardware.</p>
+                                
+                            </li>
+                            <li class="mb-10 ms-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Febrero 2024 - junio 2024 </time>
+                                <h2 class="text-lg font-semibold text-gray-900 dark:text-white">AnbarPaints</h2>
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Freelancer</h3>
+                                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Desarrolle el front y el back-end de un punto de venta de una tienda de pinturas en php/laravel</p>
+                            </li>
+                            <li class="ms-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mayo 2024 - Actualidad</time>
+                                <h2 class="text-lg font-semibold text-gray-900 dark:text-white">UDG</h2>
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador sin paga xd</h3>
+                                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Website para saber tipo de cobros en las horas de las personas para UDG desde el costo por hora y saber que impuestos cobrar XD</p>
+                            </li>
+                        </ol>
                 </div>
 
                 {/* Elemento a la derecha */}
                 <div className="flex overflow-x-scroll gap-4 px-10 pb-16 min-h-[150px] custom-scrollbar mx-auto w-2/4 rounded-lg"> {/* flex-wrap para que los elementos se envuelvan */}
-                <h1>Certificado</h1>
+                
                     {experienceCers.map((experienceCer, index) => (
                         <div key={index} className="flex-shrink-0 w-64 p-4"> {/* Cada certificado ocupa 1/3 del ancho */}
-                        
+                        <h1  className="mb-4 text-2xl font-bold dark:text-white">Certificado</h1>
                             <div className="bg-black rounded-lg shadow-lg">
                                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                     <a href="#">

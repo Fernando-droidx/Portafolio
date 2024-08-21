@@ -9,7 +9,7 @@ export default function Index(){
                 <div className="w-64 flex justify-center items-center">
                         <div className="mx-auto px-10 py-8">
                         <div className="container mx-auto py-2">
-                            <img src="https://tecdn.b-cdn.net/img/new/avatars/5.webp" className="mb-4 w-32 rounded-lg" alt="Avatar" />
+                            <img src="https://tecdn.b-cdn.net/img/new/avatars/5.webp" className="mb-4 w-32 rounded-lg" alt="Fernando" />
                             <h5 className="mb-2 text-xl font-medium leading-tight">Luis Fernando Ramirez Rivas</h5>
                             <p className="text-neutral-500 dark:text-neutral-400">Computer Science Engineer</p>
                         </div>
@@ -27,9 +27,10 @@ export default function Index(){
                         <h1 className="mb-2 text-3xl font-bold">Por que hice este sitio?</h1>
                         <p className="text-neutral-500 dark:text-neutral-400">
                             Si bien no soy un desarrollador Web, pienso que no se me da mal, Yo me considero mas versatil<br />
-                            Ya que se varios paradigmas de programacion, aparte mi resilencia a aprender es muy grande <br />
-                            puedo aprender cualquier lenguaje muy rapido, Soy de los que piensa que no es lenguaje<br /> 
-                            sino como pienses que uses el lenguaje.
+                            Ya que se varios paradigmas de programacion, aparte mi resilencia a aprender es muy buena. <br />
+                            Me Gusta mucho todo lo que tiene que ver con la IA, Redes Neuronales Profundas y Machine Learning<br /> 
+                            Me dedico mas que a nada a ser programador en cuanto a AI, pero tambien me gusta mucho el tema de ciberseguridad.
+                          
                         </p>
                         
                         </div>
@@ -37,15 +38,15 @@ export default function Index(){
                     </div>
                     <div className="w-64">
                         <div className="mx-auto px-9 py-8">
-                        <p className="mb-2 text-xl font-medium leading-tight">¿A qué me dedico?</p>
+                        <p className="mb-2 text-xl font-medium leading-tight">Mis lenguajes Favoritos?</p>
                         <p className="text-neutral-500 dark:text-neutral-400">
-                            Soy el mejor fokin programador que vas a fokin conocer<br />
+                           C# y python son de mis favoritos<br />
                         </p>
                         </div>
                         <div className="mx-auto px-9 py-8">
-                        <p className="mb-2 text-xl font-medium leading-tight">¿Donde Fokin estudie??</p>
+                    <p className="mb-2 text-xl font-medium leading-tight">Que idiomas se?</p>
                         <p className="text-neutral-500 dark:text-neutral-400">
-                            En el fokin CUTonala alaberga<br />
+                            En el CUTonala, Un centro universitario de la UDG<br />
                         </p>
                         </div>
                     </div>

@@ -21,6 +21,34 @@
         "link": "https://www.credly.com/badges/44612384-07db-4abd-952d-5a7ddfec1753/linked_in_profile"
     },
     {
+        "title": "Introducción al aprendizaje automático",
+        "image":"/images/microsoft.svg",
+        "company": "Microsoft",
+        "description": "Información general de alto nivel sobre el aprendizaje automático.",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/9HYP3SCU?sharingId=79D6BB3C874A7845"
+    },
+    {
+        "title": "Descripción de las funcionalidades de seguridad de Microsoft Power BI",
+        "image":"/images/microsoft.svg",
+        "company": "Microsoft",
+        "description": "Descripción de las funcionalidades de seguridad de Microsoft Power BI",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/2PNT3ZBV?sharingId=79D6BB3C874A7845"
+    },
+    {
+        "title": "Aprendizaje y conocimiento de los modelos de regresión en el aprendizaje automáticoo",
+        "image":"/images/microsoft.svg",
+        "company": "Microsoft",
+        "description": "técnica de aprendizaje automático más usada en descubrimientos científicos, planes de empresa y análisis de mercado de valores.",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/FRMCKPHX?sharingId=79D6BB3C874A7845"
+    },
+    {
+        "title": "Selección y personalización de arquitecturas e hiperparámetros mediante bosques aleatorio",
+        "image":"/images/microsoft.svg",
+        "company": "Microsoft",
+        "description": "modificación de la arquitectura de modelos más complejos puede lograr resultados más eficaces.",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/3WAKTD5H?sharingId=79D6BB3C874A7845"
+    },
+    {
         "title": "Desarrollo Personal G5 - ONE",
         "image":"/images/alura.webp",
         "company": "Alura",
