@@ -45,7 +45,7 @@ const ExperienceCer = ({ experienceCers }) => {
                                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mayo 2024 - Actualidad</time>
                                 <h2 class="text-lg font-semibold text-gray-900 dark:text-white">UDG</h2>
-                                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador sin paga xd</h3>
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador / SS </h3>
                                 <p class="text-base font-normal text-gray-500 dark:text-gray-400">Website para saber tipo de cobros en las horas de las personas para UDG desde el costo por hora y saber que impuestos cobrar XD</p>
                             </li>
                             <br/>
@@ -56,14 +56,14 @@ const ExperienceCer = ({ experienceCers }) => {
                 </div>
 
                 {/* Elemento a la derecha */}
-                <div className="flex overflow-x-scroll gap-4 px-10 pb-16 min-h-[150px] custom-scrollbar mx-auto w-2/4 rounded-lg"> {/* flex-wrap para que los elementos se envuelvan */}
+                <div className="flex overflow-x-scroll  gap-4 px-10 pb-16 min-h-[150px] custom-scrollbar mx-auto w-2/4 rounded-lg "> {/* flex-wrap para que los elementos se envuelvan */}
                 
                     {experienceCers.map((experienceCer, index) => (
                         <div key={index} className="flex-shrink-0 w-64 p-4"> {/* Cada certificado ocupa 1/3 del ancho */}
                         <h1  className="mb-4 text-2xl font-bold dark:text-white">Certificado</h1>
-                            <div className="bg-black rounded-lg shadow-lg shadow-indigo-500/50">
+                            <div className="bg-black rounded-lg">
 
-                                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-purple-400 dark:hover:bg-violet-700"> {/* Card de cada certificado*/}
+                                <div className="max-w-sm bg-white border border-gray-200 rounded-lg  dark:bg-gray-800 shadow-2xl hover:shadow-purple-700 hover:border transition duration-300 ease-in-out "> {/* Card de cada certificado*/}
                                     <a href="#">
                                         <Image className="rounded-t-lg" src={experienceCer.image} alt="" width={150} height={150} />
                                     </a>
