@@ -21,16 +21,15 @@ export default function Index(){
                         <p className="mb-2 text-xl font-medium leading-tight">¿Quién soy?</p>
                         <p className="text-neutral-500 dark:text-neutral-400">
                             Soy un estudiante de 8vo semestre de la carrera de Ingeniería en Ciencias Computacionales<br />
-                            por parte de la Universidad de Guadalajara<br />
+                            por parte de la Universidad de Guadalajara.<br />
                         </p>
                         <br/>
                         <h1 className="mb-2 text-3xl font-bold">Por que hice este sitio?</h1>
                         <p className="text-neutral-500 dark:text-neutral-400">
-                            Si bien no soy un desarrollador Web, pienso que no se me da mal, Yo me considero mas versatil<br />
+                            Si bien no soy un desarrollador Web de tiempo completo, pienso que no se me da mal, Yo me considero mas versatil<br />
                             Ya que se varios paradigmas de programacion, aparte mi resilencia a aprender es muy buena. <br />
                             Me Gusta mucho todo lo que tiene que ver con la IA, Redes Neuronales Profundas y Machine Learning<br /> 
                             Me dedico mas que a nada a ser programador en cuanto a AI, pero tambien me gusta mucho el tema de ciberseguridad.
-                          
                         </p>
                         
                         </div>
@@ -40,13 +39,13 @@ export default function Index(){
                         <div className="mx-auto px-9 py-8">
                         <p className="mb-2 text-xl font-medium leading-tight">Mis lenguajes Favoritos?</p>
                         <p className="text-neutral-500 dark:text-neutral-400">
-                           C# y python son de mis favoritos<br />
+                            C# y python son de mis favoritos.<br />
                         </p>
                         </div>
                         <div className="mx-auto px-9 py-8">
                     <p className="mb-2 text-xl font-medium leading-tight">Que idiomas se?</p>
                         <p className="text-neutral-500 dark:text-neutral-400">
-                            En el CUTonala, Un centro universitario de la UDG<br />
+                            Hasta el momento hablo solo 2 idiomas, Espanol e Ingles.<br />
                         </p>
                         </div>
                     </div>

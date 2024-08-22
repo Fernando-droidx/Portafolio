@@ -64,14 +64,6 @@ export default function Header() {
                 <li>
                   <a
                     className="block py-2 text-black/60 dark:text-white/60 transition duration-200 hover:text-hover-purple lg:py-0"
-                    href="./explanation"
-                  >
-                    Leetcode Explanation
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="block py-2 text-black/60 dark:text-white/60 transition duration-200 hover:text-hover-purple lg:py-0"
                     aria-current="page"
                     href="./experience"
                   >

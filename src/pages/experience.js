@@ -48,7 +48,11 @@ const ExperienceCer = ({ experienceCers }) => {
                                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador sin paga xd</h3>
                                 <p class="text-base font-normal text-gray-500 dark:text-gray-400">Website para saber tipo de cobros en las horas de las personas para UDG desde el costo por hora y saber que impuestos cobrar XD</p>
                             </li>
+                            <br/>
                         </ol>
+                        <a href="/Docs/FernandoCV.pdf" class="inline-flex items-center px-8 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Ver CV <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"></svg>
+                            </a>
+                        
                 </div>
 
                 {/* Elemento a la derecha */}
@@ -62,7 +66,7 @@ const ExperienceCer = ({ experienceCers }) => {
                                     <a href="#">
                                         <Image className="rounded-t-lg" src={experienceCer.image} alt="" width={150} height={150} />
                                     </a>
-                                    <div className="p-5">
+                                    <div className="p-2">
                                         <a href="#">
                                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{experienceCer.title}</h5>
                                         </a>

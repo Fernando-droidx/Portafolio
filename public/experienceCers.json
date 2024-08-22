@@ -7,46 +7,46 @@
         "link": "https://www.credly.com/badges/9c498f11-4392-402b-a50e-dc7ee7724556/linked_in_profile"
     },
     {
-        "title": "Getting Started with Threat Intelligence and Huntinge",
-        "image":"/images/Ibmlgo.svg",
-        "company": "Ibm",
-        "description": "Sobre ciberseguridad",
-        "link": "https://credly.com/badges/94190c96-ee29-489d-b942-0355cf41ae4e/linked_in_profile"
-    },
-    {
-        "title": "Security Operations Center in Practice",
-        "image":"/images/Ibmlgo.svg",
-        "company": "Ibm",
-        "description": "Sobre ciberseguridad",
-        "link": "https://www.credly.com/badges/44612384-07db-4abd-952d-5a7ddfec1753/linked_in_profile"
-    },
-    {
-        "title": "Introducción al aprendizaje automático",
-        "image":"/images/microsoft.svg",
-        "company": "Microsoft",
-        "description": "Información general de alto nivel sobre el aprendizaje automático.",
-        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/9HYP3SCU?sharingId=79D6BB3C874A7845"
-    },
-    {
-        "title": "Descripción de las funcionalidades de seguridad de Microsoft Power BI",
-        "image":"/images/microsoft.svg",
-        "company": "Microsoft",
-        "description": "Descripción de las funcionalidades de seguridad de Microsoft Power BI",
-        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/2PNT3ZBV?sharingId=79D6BB3C874A7845"
-    },
-    {
-        "title": "Aprendizaje y conocimiento de los modelos de regresión en el aprendizaje automáticoo",
-        "image":"/images/microsoft.svg",
-        "company": "Microsoft",
-        "description": "técnica de aprendizaje automático más usada en descubrimientos científicos, planes de empresa y análisis de mercado de valores.",
-        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/FRMCKPHX?sharingId=79D6BB3C874A7845"
+        "title": "Principiante en Programación G5 - ONE",
+        "image":"/images/alura.webp",
+        "company": "Alura",
+        "description": "Sobre desarrollo software con framework React",
+        "link": "https://app.aluracursos.com/degree/certificate/af694df5-140a-4871-8de6-d8dba9e6066f"
     },
     {
         "title": "Selección y personalización de arquitecturas e hiperparámetros mediante bosques aleatorio",
         "image":"/images/microsoft.svg",
         "company": "Microsoft",
-        "description": "modificación de la arquitectura de modelos más complejos puede lograr resultados más eficaces.",
+        "description": "Machine learning / IA",
         "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/3WAKTD5H?sharingId=79D6BB3C874A7845"
+    },
+    {
+        "title": "Getting Started with Threat Intelligence and Huntinge",
+        "image":"/images/Ibmlgo.svg",
+        "company": "Ibm",
+        "description": "Ciberseguridad",
+        "link": "https://credly.com/badges/94190c96-ee29-489d-b942-0355cf41ae4e/linked_in_profile"
+    },
+    {
+        "title": "Introducción al aprendizaje automático",
+        "image":"/images/microsoft.svg",
+        "company": "Microsoft",
+        "description": "Machine learning / IA",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/9HYP3SCU?sharingId=79D6BB3C874A7845"
+    },
+    {
+        "title": "Security Operations Center in Practice",
+        "image":"/images/Ibmlgo.svg",
+        "company": "Ibm",
+        "description": "Ciberseguridad",
+        "link": "https://www.credly.com/badges/44612384-07db-4abd-952d-5a7ddfec1753/linked_in_profile"
+    },
+    {
+        "title": "Descripción de las funcionalidades de seguridad de Microsoft Power BI",
+        "image":"/images/microsoft.svg",
+        "company": "Microsoft",
+        "description": "Machine learning / IA",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/2PNT3ZBV?sharingId=79D6BB3C874A7845"
     },
     {
         "title": "Desarrollo Personal G5 - ONE",
@@ -56,17 +56,17 @@
         "link": "https://app.aluracursos.com/degree/certificate/04e682d0-2472-4aa5-a1b6-4b558b7a2ca0"
     },
     {
-        "title": "Principiante en Programación G5 - ONE",
-        "image":"/images/alura.webp",
-        "company": "Alura",
-        "description": "Sobre desarrollo software con framework React",
-        "link": "https://app.aluracursos.com/degree/certificate/af694df5-140a-4871-8de6-d8dba9e6066f"
+        "title": "Aprendizaje y conocimiento de los modelos de regresión en el aprendizaje automáticoo",
+        "image":"/images/microsoft.svg",
+        "company": "Microsoft",
+        "description": "Machine learning / IA",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/LuisFernandoRamirezRivas-7833/FRMCKPHX?sharingId=79D6BB3C874A7845"
     },
     {
         "title": "Programacion en backend de c# .Net Framework",
         "image":"/images/udemy.webp",
         "company": "Udemy",
-        "description": "Impartido por el genio de hdeleon",
+        "description": "Programacion Backend en C#",
         "link": "https://app.aluracursos.com/degree/certificate/af694df5-140a-4871-8de6-d8dba9e6066f"
     }
 
