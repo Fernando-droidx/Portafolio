@@ -50,7 +50,7 @@ const ExperienceCer = ({ experienceCers }) => {
                             </li>
                             <br/>
                         </ol>
-                        <a href="/Docs/FernandoCV.pdf" class="inline-flex items-center px-8 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Ver CV <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"></svg>
+                        <a href="/Docs/FernandoCV.pdf" class="inline-flex items-center px-10 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg focus:outline-none dark:focus:ring-blue-800">Ver CV <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"></svg>
                             </a>
                         
                 </div>
@@ -61,8 +61,9 @@ const ExperienceCer = ({ experienceCers }) => {
                     {experienceCers.map((experienceCer, index) => (
                         <div key={index} className="flex-shrink-0 w-64 p-4"> {/* Cada certificado ocupa 1/3 del ancho */}
                         <h1  className="mb-4 text-2xl font-bold dark:text-white">Certificado</h1>
-                            <div className="bg-black rounded-lg shadow-lg">
-                                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                            <div className="bg-black rounded-lg shadow-lg shadow-indigo-500/50">
+
+                                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-purple-400 dark:hover:bg-violet-700"> {/* Card de cada certificado*/}
                                     <a href="#">
                                         <Image className="rounded-t-lg" src={experienceCer.image} alt="" width={150} height={150} />
                                     </a>
