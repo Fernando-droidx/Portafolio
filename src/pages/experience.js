@@ -63,7 +63,7 @@ const ExperienceCer = ({ experienceCers }) => {
                         <h1  className="mb-4 text-2xl font-bold dark:text-white">Certificado</h1>
                             <div className="bg-black rounded-lg">
 
-                                <div className="max-w-sm bg-white border border-gray-200 rounded-lg  dark:bg-gray-800 shadow-2xl hover:shadow-purple-700 hover:border transition duration-300 ease-in-out "> {/* Card de cada certificado*/}
+                                <div className="max-w-sm bg-white  rounded-lg  dark:bg-gray-800 shadow-2xl hover:shadow-purple-700  transition duration-300 ease-in-out "> {/* Card de cada certificado*/}
                                     <a href="#">
                                         <Image className="rounded-t-lg" src={experienceCer.image} alt="" width={150} height={150} />
                                     </a>

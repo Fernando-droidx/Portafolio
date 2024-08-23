@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), 'public', 'projects.json');
-    const jsonData = fs.readFileSync(filePath, 'utf-8');
+    const jsonData = fs.readFileSync(filePath, 'utf-8')
     const projects = JSON.parse(jsonData);
 
     return {
@@ -33,7 +33,7 @@ const Projects = ({ projects }) => {
             <div className="flex overflow-x-scroll gap-4 px-10 pb-16 min-h-[150px] custom-scrollbar mx-auto w-2/3">
                 {projects.map((project, index) => (
                     <div key={index} className="flex-shrink-0 w-64 p-4">
-                        <div className="bg-black rounded-lg shadow-2xl hover:shadow-purple-700 hover:border transition duration-300 ease-in-out">
+                        <div className="bg-black rounded-lg shadow-2xl hover:shadow-purple-700 transition duration-300 ease-in-out">
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
                                     <Image className="rounded-t-lg" src={project.image} alt={project.title} width={150} height={150} />
