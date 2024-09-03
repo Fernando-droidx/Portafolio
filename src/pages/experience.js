@@ -5,7 +5,7 @@ import Layout from "../Components/Layout";
 import Image from "next/image";
 
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), 'public', 'experienceCers.json');
+    const filePath = path.join(process.cwd(), 'public/json', 'experienceCers.json');
     const jsonData = fs.readFileSync(filePath, 'utf-8');
     const experienceCers = JSON.parse(jsonData);
 

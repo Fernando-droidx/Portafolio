@@ -10,9 +10,16 @@
     {
         "title": "Reconocimiento de inteligencia artificial",
         "image":"/images/2.png",
-        "description": "Descripción del proyecto 2",
-        "link": "https://enlaceproyecto2.com",
+        "description": "Login que utiliza reconocimiento facial y comparación de audio para autenticar a los usuarios.",
+        "link": "https://github.com/Sisitemas-Inteligentes/Sistemas",
         "Tech": "Python"
+    },
+    {
+        "title": "Ordenamiento Lineal y Paralelo",
+        "image":"/images/2.png",
+        "description": "Metodos De ordenamiento para numeros",
+        "link": "https://github.com/ICCOCUT/ProyectoFinalAlgoritmia",
+        "Tech": "Java"
     },
     {
         "title": "Recomendacion de peliculas usando machine learning",
@@ -20,6 +27,13 @@
         "description": "Sistema de recomendación de películas utilizando machine learning.",
         "link": "https://enlaceproyecto2.com",
         "Tech": "Python"
+    },
+    {
+        "title": "El asador de richard",
+        "image":"/images/2.png",
+        "description": "Punto de venta de un restaurante",
+        "link": "https://github.com/ICCOCUT/ecommerce-Asador-de-Richard",
+        "Tech": "Nextjs"
     },
     {
         "title": "Administracion de vuelos",

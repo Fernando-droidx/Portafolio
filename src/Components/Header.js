@@ -6,18 +6,17 @@ export default function Header() {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <div className="flex items-center">
-                {/* Aquí pondremos el logo */}
-                <img src="/images/2.png" className="w-20 h-20 mr-10" alt="Logo UDG" />
+              <a href="./">{/* Aquí pondremos el logo */}
+                  <img src="/images/2.png" className="w-20 h-20 mr-10" alt="Logo UDG" />
+              </a>
                 <div>
                 <h1 className="text-3xl font-bold sm:text-3xl gradient-text">
                     Luis Fernando Ramirez Rivas
                 </h1>
-                <p className="mt-1.5 text-sm text-gray-500 dark:text-gray-400">
-                    Soy estudiante de Ingenieria en ciencias computacionales por parte de la Universidad de Guadalajara
-              </p>
+
             </div>
           </div>
-          <nav className="flex items-center justify-between w-full lg:w-auto mt-4 md:mt-0">
+          <nav className="flex justify-between w-full lg:w-auto mt-4 md:mt-0">
             <div className="flex items-center lg:hidden">
               <button
                 className="text-black/50 dark:text-neutral-200"

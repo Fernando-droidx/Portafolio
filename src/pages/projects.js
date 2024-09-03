@@ -5,7 +5,7 @@ import Layout from "../Components/Layout";
 import Image from "next/image";
 
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), 'public', 'projects.json');
+    const filePath = path.join(process.cwd(), 'public/json', 'projects.json');
     const jsonData = fs.readFileSync(filePath, 'utf-8')
     const projects = JSON.parse(jsonData);
 
