@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -6,9 +8,9 @@ export default function Header() {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <div className="flex items-center">
-              <a href="./">{/* Aquí pondremos el logo */}
-                  <img src="/images/2.png" className="w-20 h-20 mr-10" alt="Logo UDG" />
-              </a>
+              <Link href="./">{/* Aquí pondremos el logo */}
+                  <Image src="/images/2.png" className="w-20 h-20 mr-10" width={100} height={100} alt="Logo UDG" />
+              </Link>
                 <div>
                 <h1 className="text-3xl font-bold sm:text-3xl gradient-text">
                     Luis Fernando Ramirez Rivas
