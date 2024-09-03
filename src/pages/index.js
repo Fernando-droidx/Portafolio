@@ -48,38 +48,7 @@ export default function Index(){
                             </div>
                         </div>
             </div>
-            <div className="flex justify-center space-x-8">
-                    <div className=" w-3/4 rounded-lg "> {/* flex-wrap para que los elementos se envuelvan */}
-                        
-                        <div className="flex-shrink-0 w-64 p-4"> {/* Cada certificado ocupa 1/3 del ancho */}
-                        <h1  className="mb-4 text-2xl font-bold dark:text-white">Certificado</h1>
-                            <div className="bg-black rounded-lg">
-
-                                <div className="max-w-sm bg-white  rounded-lg  dark:bg-gray-800 shadow-2xl hover:shadow-purple-700  transition duration-300 ease-in-out "> {/* Card de cada certificado*/}
-                                    <a href="#">
-                                        <Image className="rounded-t-lg" alt="" width={150} height={150} />
-                                    </a>
-                                    <div className="p-2">
-                                        <a href="#">
-                                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"></h5>
-                                        </a>
-                                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400"></p>
-                                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400"></p>
-                                        <a 
-                                            target="_blank" 
-                                            rel="noopener noreferrer" 
-                                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg focus:outline-none dark:focus:ring-blue-800"
-                                        >
-                                            Ver Certificado
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                </div>
-            </div>
-            
+           
            
             <div className="h-32"></div>
         </Layout>
