@@ -9,7 +9,7 @@ export default function Index(){
                     <div className="w-64 flex justify-center items-center">
                             <div className="mx-auto px-10 py-8">
                             <div className="container mx-auto py-2">
-                                <img src="images/foto.jpeg" className="mb-4 w-32 rounded-lg" alt="Fernando" />
+                                <Image src="/images/foto.jpeg" className="mb-4 w-32 rounded-lg" width={100} height={100} alt="Fernando" />
                                 <h5 className="mb-2 text-xl font-medium leading-tight">Luis Fernando Ramirez Rivas</h5>
                                 <p className="text-neutral-500 dark:text-neutral-400">Computer Science Engineer</p>
                             </div>
@@ -50,7 +50,7 @@ export default function Index(){
             </div>
            
            
-            <div className="h-32"></div>
+            <div classNameName="h-32"></div>
         </Layout>
     );
 }
