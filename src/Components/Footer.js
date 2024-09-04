@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "react/link";
 
 export default function Footer() {
     return (
@@ -60,7 +61,7 @@ export default function Footer() {
                     </span>
                 </a>
                 */}
-                <a
+                <Link
                     href="mailto:luisramirezrivas121@gmail.com"
                     className="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
                     data-twe-ripple-init
@@ -70,8 +71,8 @@ export default function Footer() {
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
                     </svg>
                     </span>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="https://github.com/Fernando-droidx"
                     type="button"
                     className="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
@@ -84,7 +85,7 @@ export default function Footer() {
                         />
                     </svg>
                     </span>
-                </a>
+                </Link>
                 </div>
             </div>
         </footer>

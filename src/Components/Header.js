@@ -46,37 +46,37 @@ export default function Header() {
             <div className="hidden w-full lg:flex lg:items-center lg:w-auto" id="navbarSupportedContent">
               <ul className="flex flex-col lg:flex-row lg:gap-4">
                 <li>
-                  <a
+                  <Link
                     className="block py-2 text-black/60 dark:text-white/60 transition duration-200 hover:text-hover-purple lg:py-0"
                     aria-current="page"
                     href="./"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="block py-2 text-black/60 dark:text-white/60 transition duration-200 hover:text-hover-purple lg:py-0"
                     href="./projects"
                   >
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="block py-2 text-black/60 dark:text-white/60 transition duration-200 hover:text-hover-purple lg:py-0"
                     aria-current="page"
                     href="./experience"
                   >
                     Work Experience
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </nav>
           <nav className="flex items-center justify-between w-full lg:w-auto mt-4 md:mt-0">
             <div className="flex items-center">
-              <a
+              <Link
                 className="text-black/60 dark:text-white/60 transition duration-200 hover:text-black/80 dark:hover:text-white/80"
                 href="#"
               >
@@ -87,7 +87,7 @@ export default function Header() {
                 >
                   {/* Puedes agregar cualquier contenido adicional aquí */}
                 </svg>
-              </a>
+              </Link>
             </div>
           </nav>
         </div>
