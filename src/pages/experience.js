@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import Layout from "../Components/Layout";
 import Image from "next/image";
+import Link from "next/link";
 
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), 'public/json', 'experienceCers.json');
@@ -51,8 +52,8 @@ const ExperienceCer = ({ experienceCers }) => {
                                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">Desarrolle el front y el back-end de un punto de venta de una tienda de pinturas en php/laravel</p>
                             </li>
                         </ol>
-                        <a href="/Docs/FernandoCV.pdf" className="inline-flex items-center px-10 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg focus:outline-none dark:focus:ring-blue-800">Ver CV <svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"></svg>
-                            </a>
+                        <Link href="/Docs/FernandoCV.pdf" className="inline-flex items-center px-10 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg focus:outline-none dark:focus:ring-blue-800">Ver CV <svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"></svg>
+                            </Link>
                         
                 </div>
 
@@ -65,23 +66,23 @@ const ExperienceCer = ({ experienceCers }) => {
                             <div className="bg-black rounded-lg">
 
                                 <div className="max-w-sm bg-white  rounded-lg  dark:bg-gray-800 shadow-2xl hover:shadow-purple-700  transition duration-300 ease-in-out "> {/* Card de cada certificado*/}
-                                    <a href="#">
+                                    <Link href="#">
                                         <Image className="rounded-t-lg" src={experienceCer.image} alt="" width={150} height={150} />
-                                    </a>
+                                    </Link>
                                     <div className="p-2">
-                                        <a href="#">
+                                        <Link href="#">
                                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{experienceCer.title}</h5>
-                                        </a>
+                                        </Link>
                                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{experienceCer.company}</p>
                                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{experienceCer.description}</p>
-                                        <a 
+                                        <Link 
                                             href={experienceCer.link} 
                                             target="_blank" 
                                             rel="noopener noreferrer" 
                                             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg focus:outline-none dark:focus:ring-blue-800"
                                         >
                                             Ver Certificado
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
