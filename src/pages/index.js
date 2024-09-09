@@ -50,7 +50,7 @@ export default function Index(){
             </div>
            
            
-            <div classNameName="h-32"></div>
+            <div className="h-32"></div>
         </Layout>
     );
 }
