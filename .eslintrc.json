@@ -1,3 +1,26 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended"
+  ],
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "tailwindcss/no-custom-classname": "off",
+    "react/no-unescaped-entities": "off",
+    "react/jsx-key": "warn"
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["clsx", "classnames"],
+      "config": "tailwind.config.js"
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
 }

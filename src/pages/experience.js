@@ -27,7 +27,7 @@ const ExperienceCer = ({ experienceCers }) => {
                     </div> 
                         <ol className="relative border-s border-gray-200 dark:border-gray-700">       
                         <li className="ms-4">
-                                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <div className="absolute -start-1.5 mt-1.5 size-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Febrero 2023 - junio 2023</time>
                                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Asador de richard</h2>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Freelancer </h3>
@@ -35,7 +35,7 @@ const ExperienceCer = ({ experienceCers }) => {
                             </li>
                             <br/>           
                             <li className="mb-10 ms-4">
-                                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <div className="absolute -start-1.5 mt-1.5 size-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Agosto 2023 - Octubre 2023</time>
                                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white">IBM</h2>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Test technician</h3>
@@ -45,27 +45,27 @@ const ExperienceCer = ({ experienceCers }) => {
                             </li>
                           
                             <li className="mb-10 ms-4">
-                                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <div className="absolute -start-1.5 mt-1.5 size-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Febrero 2024 - junio 2024 </time>
                                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white">AnbarPaints</h2>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Freelancer</h3>
                                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">Desarrolle el front y el back-end de un punto de venta de una tienda de pinturas en php/laravel</p>
                             </li>
                         </ol>
-                        <Link href="/Docs/FernandoCV.pdf" className="inline-flex items-center px-10 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg focus:outline-none dark:focus:ring-blue-800">Ver CV <svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"></svg>
+                        <Link href="/Docs/FernandoCV.pdf" className="inline-flex items-center rounded-lg bg-violet-700 px-10 py-2 text-center text-sm font-medium text-white focus:outline-none dark:focus:ring-blue-800">Ver CV <svg className="ms-2 size-3 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"></svg>
                             </Link>
                         
                 </div>
 
                 {/* Elemento a la derecha */}
-                <div className="flex overflow-x-scroll  gap-4 px-10 pb-16 min-h-[150px] custom-scrollbar mx-auto w-2/4 rounded-lg "> {/* flex-wrap para que los elementos se envuelvan */}
+                <div className="custom-scrollbar mx-auto  flex min-h-[150px] w-2/4 gap-4 overflow-x-scroll rounded-lg px-10 pb-16 "> {/* flex-wrap para que los elementos se envuelvan */}
                 
                     {experienceCers.map((experienceCer, index) => (
-                        <div key={index} className="flex-shrink-0 w-64 p-4"> {/* Cada certificado ocupa 1/3 del ancho */}
+                        <div key={index} className="w-64 shrink-0 p-4"> {/* Cada certificado ocupa 1/3 del ancho */}
                         <h1  className="mb-4 text-2xl font-bold dark:text-white">Certificado</h1>
-                            <div className="bg-black rounded-lg">
+                            <div className="rounded-lg bg-black">
 
-                                <div className="max-w-sm bg-white  rounded-lg  dark:bg-gray-800 shadow-2xl hover:shadow-purple-700  transition duration-300 ease-in-out "> {/* Card de cada certificado*/}
+                                <div className="max-w-sm rounded-lg  bg-white  shadow-2xl transition duration-300  ease-in-out hover:shadow-purple-700 dark:bg-gray-800 "> {/* Card de cada certificado*/}
                                     <Link href="#">
                                         <Image className="rounded-t-lg" src={experienceCer.image} alt="" width={150} height={150} />
                                     </Link>
@@ -79,7 +79,7 @@ const ExperienceCer = ({ experienceCers }) => {
                                             href={experienceCer.link} 
                                             target="_blank" 
                                             rel="noopener noreferrer" 
-                                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg focus:outline-none dark:focus:ring-blue-800"
+                                            className="inline-flex items-center rounded-lg bg-violet-700 px-3 py-2 text-center text-sm font-medium text-white focus:outline-none dark:focus:ring-blue-800"
                                         >
                                             Ver Certificado
                                         </Link>

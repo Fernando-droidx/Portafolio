@@ -5,9 +5,9 @@ import Footer from "../Components/Footer";
 
 export default function Layout({ children }) {
     return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex min-h-screen flex-col">
         <Header />
-            <main className="flex-grow fade-out">
+            <main className="fade-out grow">
                 {children}
 
             </main>

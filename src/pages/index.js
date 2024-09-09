@@ -6,7 +6,7 @@ export default function Index(){
     return(
             <Layout>
                 <div className="flex justify-center space-x-4">
-                    <div className="w-64 flex justify-center items-center">
+                    <div className="flex w-64 items-center justify-center ">
                             <div className="mx-auto px-10 py-8">
                             <div className="container mx-auto py-2">
                                 <Image src="/images/foto.jpeg" className="mb-4 w-32 rounded-lg" width={100} height={100} alt="Fernando" />

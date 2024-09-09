@@ -26,16 +26,16 @@ const Projects = ({ projects }) => {
     return (
         <Layout>
             <div className="px-10">
-                <h5 className="mb-4 text-2xl font-bold dark:text-white text-center  gradient-text">Proyectos</h5>
+                <h5 className="gradient-text mb-4 text-center text-2xl font-bold  dark:text-white">Proyectos</h5>
                 
             </div>
 
             {/* Contenedor Flex con scroll horizontal, centrado y clase custom-scrollbar */}
-            <div className="flex overflow-x-scroll gap-4 px-10 pb-16 min-h-[150px] custom-scrollbar mx-auto w-2/3">
+            <div className="custom-scrollbar mx-auto flex min-h-[150px] w-2/3 gap-4 overflow-x-scroll px-10 pb-16">
                 {projects.map((project, index) => (
-                    <div key={index} className="flex-shrink-0 w-64 p-4">
-                        <div className="bg-black rounded-lg shadow-2xl hover:shadow-purple-700 transition duration-300 ease-in-out">
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div key={index} className="w-64 shrink-0 p-4">
+                        <div className="rounded-lg bg-black shadow-2xl transition duration-300 ease-in-out hover:shadow-purple-700">
+                            <div className="max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
                                 <Link href="#">
                                     <Image className="rounded-t-lg" src={project.image} alt={project.title} width={150} height={150} />
                                 </Link>
@@ -48,11 +48,11 @@ const Projects = ({ projects }) => {
                                         href={project.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg focus:outline-none dark:focus:ring-blue-800"
+                                        className="inline-flex items-center rounded-lg bg-violet-700 px-3 py-2 text-center text-sm font-medium text-white focus:outline-none dark:focus:ring-blue-800"
                                     >
                                         Ver Proyecto
                                     </Link>
-                                    <kbd className="px-6 py-1.5 text-xs font-semibold text-black-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">{project.Tech}</kbd>
+                                    <kbd className="text-black-800 rounded-lg border border-gray-200 bg-gray-100 px-6 py-1.5 text-xs font-semibold dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">{project.Tech}</kbd>
                                 </div>
                             </div>
                         </div>
