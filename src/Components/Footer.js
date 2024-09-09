@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className="relative flex flex-col items-center bg-gray-50 text-center dark:border-gray-800 dark:bg-violet-500">
             {/* Desvanecimiento en la parte superior del footer */}
-            <div className="pointer-events-none absolute inset-x-0 -top-10 h-10 bg-gradient-to-b from-transparent to-violet-500"></div>
+            <div className="pointer-events-none absolute inset-x-0 -top-5 h-16 bg-gradient-to-b from-transparent to-gray-50 dark:to-violet-500"></div>
 
             <div className="container py-9">
                 <div className="mb-6 flex justify-center space-x-4">
