@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="relative flex flex-col items-center bg-gray-50 text-center dark:bg-violet-500 dark:border-gray-800">
+        <footer className="relative flex flex-col items-center bg-gray-50 text-center dark:border-gray-800 dark:bg-violet-500">
             {/* Desvanecimiento en la parte superior del footer */}
             <div className="pointer-events-none absolute inset-x-0 -top-10 h-10 bg-gradient-to-b from-transparent to-violet-500"></div>
 
@@ -12,7 +12,7 @@ export default function Footer() {
                     {/* Email link */}
                     <Link
                         href="mailto:luisramirezrivas121@gmail.com"
-                        className="text-surface rounded-full p-3 transition-all duration-150 ease-in-out hover:bg-neutral-100 dark:text-white dark:hover:bg-secondary-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-400"
+                        className="text-surface dark:hover:bg-secondary-900 rounded-full p-3 transition-all duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-violet-400 focus:ring-offset-2 dark:text-white"
                         aria-label="Email"
                     >
                         <svg
@@ -30,7 +30,7 @@ export default function Footer() {
                     {/* GitHub link */}
                     <Link
                         href="https://github.com/Fernando-droidx"
-                        className="text-surface rounded-full p-3 transition-all duration-150 ease-in-out hover:bg-neutral-100 dark:text-white dark:hover:bg-secondary-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-400"
+                        className="text-surface dark:hover:bg-secondary-900 rounded-full p-3 transition-all duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-violet-400 focus:ring-offset-2 dark:text-white"
                         aria-label="GitHub"
                     >
                         <svg
@@ -47,7 +47,7 @@ export default function Footer() {
             </div>
 
             {/* Footer Bottom */}
-            <div className="w-full py-4 bg-violet-500 text-white text-sm dark:bg-violet-700">
+            <div className="w-full bg-violet-500 py-4 text-sm text-white dark:bg-violet-700">
                 <p>&copy; 2024 Fernando. All Rights Reserved.</p>
             </div>
         </footer>
