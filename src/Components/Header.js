@@ -12,19 +12,17 @@ export default function Header() {
         </h1>          
           <div
             className="!visible mt-2 hidden grow basis-full items-center lg:mt-0 lg:!flex lg:basis-auto"
-            id="navbarSupportedContent2"
-            data-twe-collapse-item>
+            id="navbarSupportedContent2">
             <ul
               className="list-style-none me-auto flex flex-col ps-0 lg:mt-1 lg:flex-row"
-              data-twe-navbar-nav-ref>
+              >
               <li
                 className="my-4 ps-2 lg:my-0 lg:pe-1 lg:ps-2"
-                data-twe-nav-item-ref>
+                >
                 <Link
                   className="text-black lg:px-2 dark:text-white"
                   aria-current="page"
                   href="/"
-                  data-twe-nav-link-ref
                   >Home</Link
                 >
               </li>
