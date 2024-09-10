@@ -9,7 +9,7 @@ export default function Header() {
         <div className="flex w-full flex-wrap items-center justify-between px-9 py-10">
         <h1 className="text-3xl font-bold sm:text-3xl">
                 <span className="text-purple-500">Luis Fernando</span> <span className="text-white">Ramirez Rivas</span>
-              </h1>          
+        </h1>          
           <div
             className="!visible mt-2 hidden grow basis-full items-center lg:mt-0 lg:!flex lg:basis-auto"
             id="navbarSupportedContent2"
