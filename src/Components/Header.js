@@ -30,22 +30,21 @@ export default function Header() {
               </li>
               <li
                 className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0"
-                data-twe-nav-item-ref>
+                >
                 <Link
                   className="text-black lg:px-2 dark:text-white"
                   href="/experience"
-                  data-twe-nav-link-ref
+                  
                   >work experecience</Link
                 >
               </li>
 
               <li
                 className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0"
-                data-twe-nav-item-ref>
+                >
                 <Link
                   className="text-black lg:px-2 dark:text-white"
                   href="/projects"
-                  data-twe-nav-link-ref
                   >projects</Link
                 >
               </li> 
