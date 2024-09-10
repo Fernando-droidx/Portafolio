@@ -10,44 +10,7 @@ export default function Header() {
         <h1 className="text-3xl font-bold sm:text-3xl">
                 <span className="text-purple-500">Luis Fernando</span> <span className="text-white">Ramirez Rivas</span>
         </h1>          
-          <div
-            className="!visible mt-2 hidden grow basis-full items-center lg:mt-0 lg:!flex lg:basis-auto"
-            id="navbarSupportedContent2">
-            <ul
-              className="list-style-none me-auto flex flex-col ps-0 lg:mt-1 lg:flex-row"
-              >
-              <li
-                className="my-4 ps-2 lg:my-0 lg:pe-1 lg:ps-2"
-                >
-                <Link
-                  className="text-black lg:px-2 dark:text-white"
-                  aria-current="page"
-                  href="/"
-                  >Home</Link
-                >
-              </li>
-              <li
-                className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0"
-                >
-                <Link
-                  className="text-black lg:px-2 dark:text-white"
-                  href="/experience"
-                  
-                  >work experecience</Link
-                >
-              </li>
-
-              <li
-                className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0"
-                >
-                <Link
-                  className="text-black lg:px-2 dark:text-white"
-                  href="/projects"
-                  >projects</Link
-                >
-              </li> 
-            </ul>
-          </div>
+          
         </div>
       </nav>
   </header>
