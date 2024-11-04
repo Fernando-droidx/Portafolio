@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --black: #000;
+  --dark-gray: #1a1a1a;
+  --purple: #6a0dad;
+  --light-purple: #8a2be2;
+  --white: #fff;
+  --hover-purple: #9b30ff; /* Añade este color para el efecto hover */
+  --footer-purple: #4b0082;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #8a2be2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  color: var(--black);
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--hover-purple);
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+
